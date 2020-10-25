@@ -1,0 +1,51 @@
+@mixin userButton {
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 20px auto;
+  padding: 5px 10px;
+}
+
+.screen {
+  height: 70vh;
+  width: 40vw;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: rgb(56, 56, 56);
+  color: white;
+
+  .screen-logo {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: -35px;
+  }
+
+  .screen-title {
+    font-size: 50px;
+    margin-top: 50px;
+  }
+
+  .play-game {
+    @include userButton();
+    background-color: #1eb337;
+  }
+
+  .auth {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    .login {
+      @include userButton();
+      background-color: rgb(75, 75, 214);
+    }
+
+    .register {
+      @include userButton();
+      background-color: tomato;
+    }
+  }
+}

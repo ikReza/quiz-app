@@ -1,5 +1,21 @@
-.navbar-brand {
-  width: 20%;
-  display: flex;
-  justify-content: space-around;
+.navbar {
+  height: 9vh;
+  width: 100%;
+  margin-bottom: 4vh;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+  padding-left: 25px;
+
+  .navbar-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .navbar-logo {
+      margin-right: 10px;
+    }
+
+    .navbar-text {
+      font-size: 25px;
+    }
+  }
 }

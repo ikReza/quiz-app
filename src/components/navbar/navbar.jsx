@@ -5,10 +5,10 @@ import "./navbar.scss";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-light bg-light">
+    <nav className="navbar">
       <span className="navbar-brand">
-        <Logo width="30" height="30" className="d-inline-block align-top" />
-        <p>QuizBee</p>
+        <Logo width="30" height="30" className="navbar-logo" />
+        <p className="navbar-text">QuizBee</p>
       </span>
     </nav>
   );
