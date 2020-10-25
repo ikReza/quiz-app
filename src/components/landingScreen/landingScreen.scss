@@ -3,10 +3,11 @@
   font-size: 30px;
   margin: 20px auto;
   padding: 5px 10px;
+  color: white;
 }
 
 .screen {
-  height: 70vh;
+  height: 60vh;
   width: 40vw;
   border: 1px solid;
   display: flex;
@@ -17,15 +18,16 @@
   color: white;
 
   .screen-logo {
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 80px;
     position: absolute;
-    top: -35px;
+    top: -50px;
   }
 
   .screen-title {
     font-size: 50px;
-    margin-top: 50px;
+    font-weight: bold;
+    margin: 60px auto 30px;
   }
 
   .play-game {
